@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "97124",
+    "database": "agrodb2",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"  
+  },
+  "production": {
+    "url": "postgres://backagro_owner:npg_f5INUtkeShw6@ep-polished-recipe-a5dwcvru-pooler.us-east-2.aws.neon.tech/backagro?sslmode=require&options=project%3Dep-polished-recipe-a5dwcvru",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+
+
+
+}
